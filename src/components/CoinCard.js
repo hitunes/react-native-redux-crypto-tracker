@@ -86,7 +86,7 @@ const CoinCard = ({
   return (
     <View style={container}>
       <View style={upperRow}>
-        <Image style={styles.image} source={{ uri: images[symbol] }} />
+        <Image style={image} source={{ uri: images[symbol] }} />
         <Text style={coinSymbol}>{symbol}</Text>
         <Text style={seperator}>|</Text>
         <Text style={coinName}>{coin_name}</Text>
